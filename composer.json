@@ -1,0 +1,23 @@
+{
+    "name": "rudak/resizer-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 ResizerBundle, resize your images on your hard drive (server side) before upload",
+    "keywords": ["resize"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kadur Arnaud",
+            "email": "contact@kadur-arnaud.fr",
+            "homepage": "http://kadur-arnaud.fr"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Rudak\\ResizerBundle": ""
+        }
+    },
+    "target-dir": "Rudak/ResizerBundle",
+    "minimum-stability": "stable"
+}
