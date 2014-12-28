@@ -15,6 +15,10 @@ class Resizer
         // *** Open up the file
         $this->image = $this->openImage($fileName);
 
+        if (!$this->image) {
+            return 'Erreur avec l\'image ' . $fileName;
+        }
+
         // *** Get width and height
         $this->width  = imagesx($this->image);
         $this->height = imagesy($this->image);
